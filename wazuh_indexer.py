@@ -81,6 +81,6 @@ os.system("systemctl start wazuh-indexer")
 os.system("/usr/share/wazuh-indexer/bin/indexer-security-init.sh")
 
 # Testing The Cluster Installation
-os.system("curl -k -u admin:admin https://",os.getenv("EAAZZ"),":9200")
+os.system("curl -k -u admin:admin https://{}:9200".format(os.getenv("EAAZZ")))
 # Check Cluster is Working
-os.system("curl -k -u admin:admin https://",os.getenv("EAAZZ"),":9200/_cat/nodes?v")
+os.system("curl -k -u admin:admin https://{}:9200/_cat/nodes?v".format(os.getenv("EAAZZ")))
