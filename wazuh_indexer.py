@@ -84,15 +84,3 @@ os.system("/usr/share/wazuh-indexer/bin/indexer-security-init.sh")
 os.system("curl -k -u admin:admin https://",os.getenv("EAAZZ"),":9200")
 # Check Cluster is Working
 os.system("curl -k -u admin:admin https://",os.getenv("EAAZZ"),":9200/_cat/nodes?v")
-
-
-
-
-
-
-
-
-
-
-
-

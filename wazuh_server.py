@@ -64,28 +64,3 @@ os.system("systemctl start filebeat")
 
 # Verify Filebeat is succeffuly installed
 os.system("filebeat test output")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

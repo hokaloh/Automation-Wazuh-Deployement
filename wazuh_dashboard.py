@@ -37,4 +37,3 @@ os.system("chown -R wazuh-dashboard:wazuh-dashboard /etc/wazuh-dashboard/certs")
 os.system("systemctl daemon-reload")
 os.system("systemctl enable wazuh-dashboard")
 os.system("systemctl start wazuh-dashboard")
-
