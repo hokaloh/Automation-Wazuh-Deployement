@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotaenv()
+load_dotenv()
 
 # Wazuh Server Node Installation
 os.system("apt install gnupg apt-transport-https") 
